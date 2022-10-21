@@ -1,11 +1,12 @@
 import React from 'react'
+import Container from './components/Container'
 
 function App() {
   return (
-    <div>
-        <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className='sm:overflow-y-scroll bg-[#ffffff]'>
+       <div className='flex flex-col items-center py-[64px] px-[0px] gap-[24px]'>
+          <Container />
+       </div>
     </div>
   )
 }
