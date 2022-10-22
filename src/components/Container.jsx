@@ -4,7 +4,7 @@ function Container() {
   return (
     <div id="container" className='flex flex-col items-center py-[0px] px-[16px] gap-[32px]'>
           <div id="content" className='flex flex-col items-start py-[0px] px-[0px] gap-[32px]'>
-                   <section id="profile_section" className='flex flex-col items-center py-[0px] px-[0px] gap-[24px] sm:h-[140px] sm:w-[343px] isolate'>
+                   <section id="profile_section" className='flex flex-col items-center py-[0px] px-[0px] gap-[24px] sm:h-[140px] w-[343px] md:w-[730px] lg:w-[1000px] xl:w-[1152px] isolate'>
                            <div id="profile_id" className='flex flex-col justify-center items-center py-[0px] px-[0px]'>
                             <img className='w-[88px] h-[88px] rounded-[275px]' src="./images/profile__img.png" alt="profile img" />
                            </div>
@@ -18,40 +18,40 @@ function Container() {
                            </div>
                    </section>
 
-                   <section id="link_section" className='flex flex-col items-center py-[0px] px-[0px] w-[343px]'>
+                   <section id="link_section" className='flex flex-col items-center py-[0px] px-[0px]'>
                     <article id="twitter_link" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
-                    <a href='https://tailwindcss.com/docs/installation/play-cdn' target="_blanck">
-                         <span className='flex flex-row justify-center items-center py-[24px] px-[32px] gap-[8px] h-[68px] w-[343px] bg-[#EAECF0] border-[1px] border-[#EAECF0] border-solid rounded-[8px]'>Twitter Link</span>
+                    <a href='https://twitter.com/Fortunatus_05' target="_blanck">
+                         <span className='flex flex-row justify-center items-center py-[24px] px-[32px] gap-[8px] h-[68px] w-[343px] md:w-[730px] lg:w-[1000px] xl:w-[1152px] bg-[#EAECF0] border-[1px] border-[#EAECF0] border-solid rounded-[8px]'>Twitter Link</span>
                     </a>
                     </article>
 
                     <article id="btn__zuri" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
                     <a href='https://training.zuri.team/' target="_blanck">
-                         <span className='flex flex-row justify-center items-center py-[24px] px-[32px] gap-[8px] h-[68px] w-[343px] bg-[#EAECF0] border-[1px] border-[#EAECF0] border-solid rounded-[8px]'>Zuri Team</span>
+                         <span className='flex flex-row justify-center items-center py-[24px] px-[32px] gap-[8px] h-[68px] w-[343px] md:w-[730px] lg:w-[1000px] xl:w-[1152px] bg-[#EAECF0] border-[1px] border-[#EAECF0] border-solid rounded-[8px]'>Zuri Team</span>
                     </a>
                     </article>
 
                     <article id="books" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
                     <a href='http://books.zuri.team' target="_blanck">
-                         <span className='flex flex-row justify-center items-center py-[24px] px-[32px] gap-[8px] h-[68px] w-[343px] bg-[#EAECF0] border-[1px] border-[#EAECF0] border-solid rounded-[8px]'>Zuri Books</span>
+                         <span className='flex flex-row justify-center items-center py-[24px] px-[32px] gap-[8px] h-[68px] w-[343px] md:w-[730px] lg:w-[1000px] xl:w-[1152px] bg-[#EAECF0] border-[1px] border-[#EAECF0] border-solid rounded-[8px]'>Zuri Books</span>
                     </a>
                     </article>
 
-                    <article id="twitter_link" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
-                    <a href='https://tailwindcss.com/docs/installation/play-cdn' target="_blanck">
-                         <span className='flex flex-row justify-center items-center py-[24px] px-[32px] gap-[8px] h-[68px] w-[343px] bg-[#EAECF0] border-[1px] border-[#EAECF0] border-solid rounded-[8px]'>Twitter Link</span>
+                    <article id="book__python" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
+                    <a href='https://books.zuri.team/' target="_blanck">
+                         <span className='flex flex-row justify-center items-center py-[24px] px-[32px] gap-[8px] h-[68px] w-[343px] md:w-[730px] lg:w-[1000px] xl:w-[1152px] bg-[#EAECF0] border-[1px] border-[#EAECF0] border-solid rounded-[8px]'>Python Books</span>
                     </a>
                     </article>
 
-                    <article id="twitter_link" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
-                    <a href='https://tailwindcss.com/docs/installation/play-cdn' target="_blanck">
-                         <span className='flex flex-row justify-center items-center py-[24px] px-[32px] gap-[8px] h-[68px] w-[343px] bg-[#EAECF0] border-[1px] border-[#EAECF0] border-solid rounded-[8px]'>Twitter Link</span>
+                    <article id="pitch" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
+                    <a href='https://background.zuri.team' target="_blanck">
+                         <span className='flex flex-row justify-center items-center py-[24px] px-[32px] gap-[8px] h-[68px] w-[343px] md:w-[730px] lg:w-[1000px] xl:w-[1152px] bg-[#EAECF0] border-[1px] border-[#EAECF0] border-solid rounded-[8px]'>Background Check for Coders</span>
                     </a>
                     </article>
 
-                    <article id="twitter_link" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
-                    <a href='https://tailwindcss.com/docs/installation/play-cdn' target="_blanck">
-                         <span className='flex flex-row justify-center items-center py-[24px] px-[32px] gap-[8px] h-[68px] w-[343px] bg-[#EAECF0] border-[1px] border-[#EAECF0] border-solid rounded-[8px]'>Twitter Link</span>
+                    <article id="book__design" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
+                    <a href='https://books.zuri.team/design-rules' target="_blanck">
+                         <span className='flex flex-row justify-center items-center py-[24px] px-[32px] gap-[8px] h-[68px] w-[343px] md:w-[730px] lg:w-[1000px] xl:w-[1152px] bg-[#EAECF0] border-[1px] border-[#EAECF0] border-solid rounded-[8px]'>Design Books</span>
                     </a>
                     </article>
                    </section>
