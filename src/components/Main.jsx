@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Container() {
+function Main() {
   return (
     <div id="container" className='flex flex-col items-center py-[0px] px-[16px] gap-[32px]'>
           <div id="content" className='flex flex-col items-start py-[0px] px-[0px] gap-[32px]'>
@@ -19,45 +19,45 @@ function Container() {
                    </section>
 
                    <section id="link_section" className='flex flex-col items-center py-[0px] px-[0px]'>
-                    <article id="twitter_link" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
+                    <button type='button' id="twitter_link" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
                     <a href='https://twitter.com/Fortunatus_05' target="_blanck">
                          <span className='flex flex-row justify-center items-center py-[24px] px-[32px] gap-[8px] h-[68px] w-[343px] md:w-[730px] lg:w-[1000px] xl:w-[1152px] bg-[#EAECF0] border-[1px] border-[#EAECF0] border-solid rounded-[8px]'>Twitter Link</span>
                     </a>
-                    </article>
+                    </button>
 
-                    <article id="btn__zuri" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
+                    <button type='button' id="btn__zuri" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
                     <a href='https://training.zuri.team/' target="_blanck">
                          <span className='flex flex-row justify-center items-center py-[24px] px-[32px] gap-[8px] h-[68px] w-[343px] md:w-[730px] lg:w-[1000px] xl:w-[1152px] bg-[#EAECF0] border-[1px] border-[#EAECF0] border-solid rounded-[8px]'>Zuri Team</span>
                     </a>
-                    </article>
+                    </button>
 
-                    <article id="books" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
+                    <button type='button' id="books" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
                     <a href='http://books.zuri.team' target="_blanck">
                          <span className='flex flex-row justify-center items-center py-[24px] px-[32px] gap-[8px] h-[68px] w-[343px] md:w-[730px] lg:w-[1000px] xl:w-[1152px] bg-[#EAECF0] border-[1px] border-[#EAECF0] border-solid rounded-[8px]'>Zuri Books</span>
                     </a>
-                    </article>
+                    </button>
 
-                    <article id="book__python" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
+                    <button type='button'icle id="book__python" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
                     <a href='https://books.zuri.team/' target="_blanck">
                          <span className='flex flex-row justify-center items-center py-[24px] px-[32px] gap-[8px] h-[68px] w-[343px] md:w-[730px] lg:w-[1000px] xl:w-[1152px] bg-[#EAECF0] border-[1px] border-[#EAECF0] border-solid rounded-[8px]'>Python Books</span>
                     </a>
-                    </article>
+                    </button>
 
-                    <article id="pitch" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
+                    <button type='button' id="pitch" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
                     <a href='https://background.zuri.team' target="_blanck">
                          <span className='flex flex-row justify-center items-center py-[24px] px-[32px] gap-[8px] h-[68px] w-[343px] md:w-[730px] lg:w-[1000px] xl:w-[1152px] bg-[#EAECF0] border-[1px] border-[#EAECF0] border-solid rounded-[8px]'>Background Check for Coders</span>
                     </a>
-                    </article>
+                    </button>
 
-                    <article id="book__design" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
+                    <button type='button' id="book__design" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
                     <a href='https://books.zuri.team/design-rules' target="_blanck">
                          <span className='flex flex-row justify-center items-center py-[24px] px-[32px] gap-[8px] h-[68px] w-[343px] md:w-[730px] lg:w-[1000px] xl:w-[1152px] bg-[#EAECF0] border-[1px] border-[#EAECF0] border-solid rounded-[8px]'>Design Books</span>
                     </a>
-                    </article>
+                    </button>
                    </section>
           </div>
     </div>
   )
 }
 
-export default Container
+export default Main
