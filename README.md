@@ -1,3 +1,2 @@
 # Live Site
-
-(hngi9.netlify.app)
+[Live Site](hngi9.netlify.app)
