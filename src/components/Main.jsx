@@ -6,7 +6,7 @@ function Main() {
           <div id="content" className='flex flex-col items-start py-[0px] px-[0px] gap-[32px]'>
                    <section id="profile_section" className='flex flex-col items-center py-[0px] px-[0px] gap-[24px] sm:h-[140px] w-[343px] md:w-[730px] lg:w-[1000px] xl:w-[1152px] isolate'>
                            <div id="profile_id" className='flex flex-col justify-center items-center py-[0px] px-[0px]'>
-                            <img className='w-[88px] h-[88px] rounded-[275px]' src="./images/profile__img.png" alt="profile img" />
+                            <img className="hover:bg-[url('./images/hover.png')] focus:border-[#EBE9FE] focus:border-solid focus:border-[5.5px] w-[88px] h-[88px] rounded-[275px]" src="./images/profile__img.png" alt="profile img" />
                            </div>
 
                            <div id="twitter" className='text-black flex flex-row justify-center items-center gap-[8px] py-[0px] px-[0px] w-[343px] h-[28px]'>
@@ -15,6 +15,9 @@ function Main() {
 
                            <div id="slack" className='hidden text-black flex-row justify-center items-center gap-[8px] py-[0px] px-[0px] w-[343px] h-[28px]'>
                               Natus05
+                           </div>
+                           <div className='mt-[-20px] mr-[0px] border border-dashed border-[#D0D5DD] md:hidden'>
+                              <img className='w-[40px] h-[40px]' src='./images/nav-sm.png' alt='nav'/>
                            </div>
                    </section>
 
