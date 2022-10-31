@@ -16,11 +16,11 @@ function Main() {
                            <div id="slack" className='hidden text-black flex-row justify-center items-center gap-[8px] py-[0px] px-[0px] w-[343px] h-[28px]'>
                               Natus05
                            </div>
-                           <div className='mr-[-90%] border border-dashed border-[#D0D5DD] md:hidden mt-[-140px]'>
+                           <div className='mr-[-90%] border-dashed border-[#D0D5DD] md:hidden mt-[-140px]'>
                               <img className='w-[40px] h-[40px]' src='./images/nav-sm.png' alt='nav'/>
                            </div>
-                           <div className='border border-dashed border-[#D0D5DD] rounded-[20px] mr-[-50%] mt-[-170px]'>
-                              <img className='sm:hidden md:block w-[40px] h-[40px]' src='./images/nav-lg.png' alt='nav'/>
+                           <div className='border-dashed border-[#D0D5DD] rounded-[20px] mr-[-50%] mt-[-170px]'>
+                              <img className='hidden md:inline w-[40px] h-[40px]' src='./images/nav-lg.png' alt='nav'/>
                            </div>
                    </section>
 
