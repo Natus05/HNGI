@@ -1,16 +1,18 @@
 import React from 'react'
-import Footer from './components/Footer'
-import Main from './components/Main'
-import Social from './components/Social'
+import Contact from './Contact'
+import Home from './Home'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
 
 function App() {
   return (
     <div className='bg-[#ffffff]'>
-       <div className='flex flex-col items-center py-[64px] px-[0px] gap-[24px]'>
-          <Main />
-          <Social />
-          <Footer />
-       </div>
+      <Router>
+        <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/contact' element={<Contact/>} />
+       </Routes>
+      </Router>
     </div>
   )
 }

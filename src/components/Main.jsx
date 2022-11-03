@@ -62,7 +62,7 @@ function Main() {
                     </button>
 
                     <button type='button' id="book__design" className='mt-[24px] flex flex-row grow justify-center items-center gap-[12px] py-[0px] px-[0px] h-[58px] drop-shadow-[0px_1px_2px_rgba(16,24,40,0.05)]'>
-                    <a title='Free design books by Zuri' href='https://books.zuri.team/design-rules' target="_blanck">
+                    <a title='Free design books by Zuri' href='./Contact' target="_blanck">
                          <span className='flex flex-row justify-center items-center py-[24px] px-[32px] gap-[8px] h-[68px] w-[343px] md:w-[730px] lg:w-[1000px] xl:w-[1152px] bg-[#EAECF0] border-[1px] border-[#EAECF0] border-solid rounded-[8px] hover:bg-[#D0D5DD] hover:border-[#D0D5DD] focus:bg-[#EAECF0] focus:border-[#98A2B3] disabled:bg-[#FCFCFD] disabled:border-[#F2F4F7]'>Contact</span>
                     </a>
                     </button>
