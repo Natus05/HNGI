@@ -14,35 +14,36 @@ function Contact() {
       </div>
    </div>
    
-   <div className='py-0 px-[16px] gap-[48px] flex flex-col items-start w-[375px]'>
+   <div className='py-0 px-[16px] gap-[48px] flex flex-col items-start w-[375px] mt-[48px]'>
     <div className='w-[343px] flex flex-col items-center p-0 gap-[48px]'>
        <form className='flex flex-col items-start p-0 gap-[32px] w-[343px]'>
     <div class="grid gap-6 mb-6 md:grid-cols-2">
         <div className='w-[343px]'>
-            <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">First name</label>
-            <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your first name" required />
+            <label for="first_name" class="block mb-2 text-sm font-medium">First name</label>
+            <input id="first_name" type="text" class="border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Enter your first name" required />
         </div>
         <div>
-            <label for="last_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Last name</label>
-            <input type="text" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your last name" required />
+            <label for="last_name" class="block mb-2 text-sm font-medium">Last name</label>
+            <input id="last_name" type="text" class="border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Enter your last name" required />
         </div>
 
         </div>
 
         <div class="mb-12 w-[343px]">
-        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email address</label>
-        <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="yourname@gmail.com" required />
+        <label for="email" class="block mb-2 text-sm font-medium">Email address</label>
+        <input id="email" type="email" class="border h-[44px] border-[#D0D5DD] text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="yourname@gmail.com" required />
+        <p className='hidden text-[#475467] text-[14px] font-[400] leading-[20px] h-[20px] w-[320px]'>This is a hint text to help user.</p>
         </div>
 
         <label for="message" class="block mb-2 text-sm font-medium">Message</label>
-        <textarea id="message" rows="4" class="block p-2.5 w-full text-sm rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Send me a message and i'll reply you as soon as possible..."></textarea>
+        <textarea id="message" rows="4" class="block h-[132px] p-2.5 w-full text-sm rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Send me a message and i'll reply you as soon as possible..."></textarea>
 
-        <div class="flex items-center">
+        <div class="flex items-center mt-[24px]">
          <input id="link-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 focus:ring-2 dark:border-gray-600" />
          <label for="link-checkbox" class="ml-2 text-sm font-medium">You agree to providing your data to Fortunatus Adeyemo who may contact you</label>
          </div>
 
-         <button type="submit" class="w-[100%] mt-[32px] text-white bg-[#1570EF] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Send message</button>
+         <button id="btn__submit" type="submit" class="w-[100%] mt-[32px] text-white bg-[#1570EF] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Send message</button>
         </form>
         </div>
         </div>
